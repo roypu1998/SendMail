@@ -101,8 +101,8 @@ public class SendEmails {
 		aboutframe=new JFrame("Development");
 		JLabel devloper=new JLabel("Developer: ");
 		JLabel mailofdev=new JLabel("Mail: ");
-		JLabel thedev=new JLabel("Roi Putterman");
-		JLabel themail=new JLabel("royputterman@gmail.com"); 
+		JLabel thedev=new JLabel("<your name>");
+		JLabel themail=new JLabel("<your Email>"); 
 		JPanel panelA=new JPanel();
 		panelA.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 		panelA.setLayout(new GridLayout());
